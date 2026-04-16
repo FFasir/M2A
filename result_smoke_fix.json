@@ -1,0 +1,67 @@
+{
+  "results": {
+    "Temporal": [
+      {
+        "id": "0:0",
+        "conversation_id": 0,
+        "question": "When did Caroline go to the LGBTQ support group?",
+        "prediction": "Caroline attended the LGBTQ support group on March 15, 2023.",
+        "reference_used": "7 May 2023",
+        "f1": 0.15384615384615383,
+        "bleu1": 0.1,
+        "judge_label": "WRONG",
+        "judge_rationale": "The generated answer refers to a different date than the gold answer provided, making it incorrect."
+      },
+      {
+        "id": "0:1",
+        "conversation_id": 0,
+        "question": "When did Melanie paint a sunrise?",
+        "prediction": "There is no stored information about when Melanie painted a sunrise.",
+        "reference_used": "2022",
+        "f1": 0.0,
+        "bleu1": 0.0,
+        "judge_label": "WRONG",
+        "judge_rationale": "The generated answer fails to provide any relevant information regarding the timestamp of when Melanie painted a sunrise and does not align with the gold answer."
+      }
+    ],
+    "Open-domain": [
+      {
+        "id": "0:2",
+        "conversation_id": 0,
+        "question": "What fields would Caroline be likely to pursue in her educaton?",
+        "prediction": "There is no stored information about Caroline's educational interests or fields she might pursue.",
+        "reference_used": "Psychology, counseling certification",
+        "f1": 0.0,
+        "bleu1": 0.0,
+        "judge_label": "WRONG",
+        "judge_rationale": "The generated answer does not provide any relevant information about the fields Caroline would be likely to pursue, contradicting the gold answer."
+      }
+    ]
+  },
+  "summary": {
+    "total_questions": 3,
+    "overall": {
+      "F1": 0.05128205128205127,
+      "BLEU1": 0.03333333333333333,
+      "LLM_JUDGE": 0.0
+    },
+    "by_category": {
+      "Temporal": {
+        "count": 2,
+        "metrics": {
+          "F1": 0.07692307692307691,
+          "BLEU1": 0.05,
+          "LLM_JUDGE": 0.0
+        }
+      },
+      "Open-domain": {
+        "count": 1,
+        "metrics": {
+          "F1": 0.0,
+          "BLEU1": 0.0,
+          "LLM_JUDGE": 0.0
+        }
+      }
+    }
+  }
+}

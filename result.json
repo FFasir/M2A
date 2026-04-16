@@ -1,0 +1,12 @@
+{
+  "results": {},
+  "summary": {
+    "total_questions": 0,
+    "overall": {
+      "F1": 0.0,
+      "BLEU1": 0.0,
+      "LLM_JUDGE": 0.0
+    },
+    "by_category": {}
+  }
+}

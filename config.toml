@@ -1,0 +1,14 @@
+[llm]
+model = "gpt-4o-mini"
+base_url = "http://jeniya.cn/v1"
+api_key = "sk-PU8QS1biyy9zabOxoiuMXeJIFYie9lhFWFqvyiV3G9CJdnpE"
+
+[text_embedding]
+model = "all-MiniLM-L6-v2"
+base_url = "http://localhost:8010/v1"
+api_key = "EMPTY"
+
+[multimodal_embedding]
+model = "siglip2-base-patch16-384"
+base_url = "http://localhost:8010/v1"
+api_key = "EMPTY"
